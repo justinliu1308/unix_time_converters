@@ -8,5 +8,5 @@ current_datetime = datetime.fromtimestamp(current_unix_time)    # Convert Unix t
 date_string = current_datetime.strftime("%Y-%m-%d %H:%M:%S")    # Convert datetime object to human-readable string
 
 # Print output
-print(f"\nCurrent unix time: {current_unix_time}")
-print(f"Current time:      {current_datetime}\n")
+print(f"\nCurrent local unix time: {current_unix_time}")
+print(f"Current local time:      {current_datetime}\n")

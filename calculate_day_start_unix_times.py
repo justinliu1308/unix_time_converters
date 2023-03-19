@@ -4,8 +4,8 @@ from datetime import datetime, timedelta
 
 current_unix_time = int(time.time())                            # Get current Unix time
 current_datetime = datetime.fromtimestamp(current_unix_time)    # Convert Unix time to datetime object
-print(f"\nThe current local unix time is: {current_unix_time}")
-print(f"The current local time is:      {current_datetime}\n")
+print(f"\nCurrent local unix time: {current_unix_time}")
+print(f"Current local time:      {current_datetime}\n")
 
 days = 5        # days = how many days in the future you want unix start times for
 unix_start_times = []
